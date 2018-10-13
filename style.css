@@ -1,0 +1,29 @@
+.newsletter-widget {
+    max-width: 400px;
+    background-color: #f7f8fd;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 200px;
+    padding: 15px;
+}
+
+.sub-header {
+    color: #818118;
+    line-height: 1.42;
+}
+
+#email-input {
+    width: 100%;
+}
+
+#email-button {
+    border-radius: 5px;
+    background-color: #0079f0;
+}
+
+.cta {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+}
