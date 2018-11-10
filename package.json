@@ -1,0 +1,26 @@
+{
+    "name": "random-quote-machine",
+    "version": "1.0.0",
+    "description": "",
+    "main": "newfile.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/crickschmelz/random-quote-machine.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "babel-eslint": "^10.0.1",
+        "eslint": "^5.7.0",
+        "eslint-plugin-babel": "^5.2.1",
+        "eslint-plugin-prettier": "^3.0.0",
+        "prettier": "^1.14.3"
+    },
+    "bugs": {
+        "url": "https://github.com/crickschmelz/random-quote-machine/issues"
+    },
+    "homepage": "https://github.com/crickschmelz/random-quote-machine#readme"
+}
