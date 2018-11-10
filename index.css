@@ -1,0 +1,57 @@
+body {
+  position: relative;
+  font-family: sans-serif;
+  font-weight:400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  }
+
+  .quote-box {
+  border-radius:3px;
+  position:relative;
+  background:rgb(65, 33, 33);
+  width:450px;
+  padding:40px 50px;
+  display:table;
+  color: white;
+  }
+
+  #background {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  transition: background-image 0.2s ease-in-out;
+  }
+
+  #quote-text {
+  transition: all ease-in-out 1s;
+  opacity: 1;
+  text-align: center;
+  }
+
+  #quote-author {
+  transition: all ease-in-out 1s;
+  text-align: right;
+  }
+
+  #new-quote-button {
+  color: white;
+  background-color: black;
+  cursor: pointer;
+  float: right;
+  margin-top: 50px;
+  }
+
+  .fade-out {
+    opacity: 0;
+  }
